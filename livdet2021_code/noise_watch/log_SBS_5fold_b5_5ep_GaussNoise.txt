@@ -1,0 +1,9 @@
+attack_strength   :   0     auc    :    0.7610502584060427
+attack_strength   :   50     auc    :    0.8174945014098791
+attack_strength   :   100     auc    :    0.7595786855323385
+attack_strength   :   250     auc    :    0.7018108731158021
+attack_strength   :   500     auc    :    0.625994484794106
+attack_strength   :   750     auc    :    0.588639149715501
+attack_strength   :   1000     auc    :    0.5918164547847887
+attack_strength   :   5000     auc    :    0.5514485877208205
+attack_strength   :   10000     auc    :    0.595334383204038

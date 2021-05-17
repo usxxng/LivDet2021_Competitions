@@ -1,0 +1,1 @@
+Fri Jan 15 00:55:41 2021 Fold 0, Epoch 1, lr: 0.0000200, train loss: 1.07744, valid loss: 0.00000, Acc: 100.0000, AUC: 0.000000.

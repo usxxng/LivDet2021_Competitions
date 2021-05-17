@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f9d0d3a-fc3f-44b3-9b7e-748cc5fe994e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/make_csv.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1m9cmdpvzqIGIueBOPZZfHXkO2q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/train.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020 livdet_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="make_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020 livdet_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mkcsv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020 livdet_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/mkcsv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020 livdet_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="--kernel-type 5fold_b3_50ep --k-fold 5 --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 10" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020 livdet_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\USEUNG\Anaconda3\envs\pythonProject1\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="--kernel-type 5fold_b5_05ep --k-fold 5 --data-folder sampled_face/ --enet-type tf_efficientnet_b5_ns --n-epochs 5 --batch-size 32" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.dataset" />
+      <item itemvalue="Python.make_csv" />
+      <item itemvalue="Python.mkcsv" />
+      <item itemvalue="Python.train" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.dataset" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.make_csv" />
+        <item itemvalue="Python.mkcsv" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f9d0d3a-fc3f-44b3-9b7e-748cc5fe994e" name="Default Changelist" comment="" />
+      <created>1608909407195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608909407195</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="570" y="182" width="671" height="1027" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611128188815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="507" y="0" width="671" height="1027" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1610956369847" />
+    <state x="-759" y="329" width="673" height="1291" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1610702828242" />
+    <state x="570" y="182" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1611128188815" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609857725611" />
+    <state x="-751" y="1080" width="490" height="483" key="#xdebugger.evaluate" timestamp="1611639680315">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-6" y="252" width="490" height="483" key="#xdebugger.evaluate/0.0.1280.760@0.0.1280.760" timestamp="1610639527970" />
+    <state x="-751" y="1080" key="#xdebugger.evaluate/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611639680315" />
+    <state x="-751" y="1080" width="662" height="442" key="#xdebugger.evaluate/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1610689931475" />
+    <state x="1052" y="294" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1609916503739" />
+    <state width="1078" height="466" key="DebuggerActiveHint" timestamp="1610631371432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1078" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1610631371432" />
+    <state width="1736" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1609916893733" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610521877753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1610521877753" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609639998790" />
+    <state width="1074" height="572" key="GridCell.Tab.0.bottom" timestamp="1611667993369">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1258" height="236" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1610639819015" />
+    <state width="1685" height="198" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1611648836316" />
+    <state width="1074" height="572" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611667993369" />
+    <state width="1899" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1611562912770" />
+    <state width="1899" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610504859533" />
+    <state width="1074" height="572" key="GridCell.Tab.0.center" timestamp="1611667993369">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1258" height="236" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1610639819015" />
+    <state width="1685" height="198" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1611648836315" />
+    <state width="1074" height="572" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611667993369" />
+    <state width="1899" height="202" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1611562912769" />
+    <state width="1899" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610504859533" />
+    <state width="1074" height="572" key="GridCell.Tab.0.left" timestamp="1611667993369">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1258" height="236" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1610639819015" />
+    <state width="1685" height="198" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1611648836315" />
+    <state width="1074" height="572" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611667993369" />
+    <state width="1899" height="202" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1611562912769" />
+    <state width="1899" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610504859533" />
+    <state width="1074" height="572" key="GridCell.Tab.0.right" timestamp="1611667993369">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1258" height="236" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1610639819015" />
+    <state width="1685" height="198" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1611648836316" />
+    <state width="1074" height="572" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611667993369" />
+    <state width="1899" height="202" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1611562912769" />
+    <state width="1899" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610504859533" />
+    <state width="1074" height="572" key="GridCell.Tab.1.bottom" timestamp="1611667993370">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1258" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1610639819015" />
+    <state width="1685" height="198" key="GridCell.Tab.1.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1611648960243" />
+    <state width="1074" height="572" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611667993370" />
+    <state width="1899" height="202" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1611562912770" />
+    <state width="1899" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609978959651" />
+    <state width="1074" height="572" key="GridCell.Tab.1.center" timestamp="1611667993370">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1258" height="236" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1610639819015" />
+    <state width="1685" height="198" key="GridCell.Tab.1.center/0.0.1707.1027@0.0.1707.1027" timestamp="1611648960242" />
+    <state width="1074" height="572" key="GridCell.Tab.1.center/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611667993370" />
+    <state width="1899" height="202" key="GridCell.Tab.1.center/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1611562912770" />
+    <state width="1899" height="242" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609978959651" />
+    <state width="1074" height="572" key="GridCell.Tab.1.left" timestamp="1611667993370">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1258" height="236" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1610639819015" />
+    <state width="1685" height="198" key="GridCell.Tab.1.left/0.0.1707.1027@0.0.1707.1027" timestamp="1611648960242" />
+    <state width="1074" height="572" key="GridCell.Tab.1.left/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611667993370" />
+    <state width="1899" height="202" key="GridCell.Tab.1.left/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1611562912770" />
+    <state width="1899" height="242" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609978959651" />
+    <state width="1074" height="572" key="GridCell.Tab.1.right" timestamp="1611667993370">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1258" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1610639819015" />
+    <state width="1685" height="198" key="GridCell.Tab.1.right/0.0.1707.1027@0.0.1707.1027" timestamp="1611648960242" />
+    <state width="1074" height="572" key="GridCell.Tab.1.right/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611667993370" />
+    <state width="1899" height="202" key="GridCell.Tab.1.right/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1611562912770" />
+    <state width="1899" height="242" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609978959651" />
+    <state x="-998" y="296" key="SettingsEditor" timestamp="1610695994476">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-998" y="296" key="SettingsEditor/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1610695994476" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1610693395804" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608913434571" />
+    <state width="545" height="955" key="XDebugger.FullValuePopup" timestamp="1611639780559">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state width="545" height="955" key="XDebugger.FullValuePopup/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611639780559" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1610622401893" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1609916187842" />
+    <state x="519" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1610518385404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="519" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1610518385404" />
+    <state x="-877" y="435" key="search.everywhere.popup" timestamp="1611657191481">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-877" y="435" key="search.everywhere.popup/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1611657191481" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="logits.data" />
+        <watch expression="output" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

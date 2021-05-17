@@ -1,0 +1,6 @@
+attack_strength   :   9     auc    :    0.9999224922954698
+attack_strength   :   13     auc    :    0.9999290980657424
+attack_strength   :   17     auc    :    0.9993583595142028
+attack_strength   :   21     auc    :    0.9979143381326456
+attack_strength   :   23     auc    :    0.9968939668178948
+attack_strength   :   25     auc    :    0.9953993011975821
